@@ -1,0 +1,261 @@
+body {
+  font-family: Geneva, Tahoma, sans-serif;
+  background-color: lightskyblue;
+}
+
+#pg_header {
+  text-align: center;
+  color: skyblue;
+  width: 100%;
+  background-color: rgb(221, 84, 49);
+}
+
+#player-table {
+  table, th, td {
+    border: 0.5px solid black;
+  }
+}
+
+#imageContainer {
+  margin-left: 40%;
+  margin-right: 30%;
+}
+
+.header-footer {
+  text-align: center;
+  color: skyblue;
+  width: 100%;
+  background-color: violet;
+}
+
+#main-nav {
+  text-align: center;
+  background-color: rgba(233, 118, 118, 0.913);
+  margin: 0;
+  font-family: Geneva;
+}
+
+#main-nav li {
+  display: inline-block;
+  position: relative;
+}
+
+#main-nav li:hover {
+  background-color: rgb(227, 191, 93);
+  color: antiquewhite;
+}
+
+#main-nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+#main-nav li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: rgb(144, 0, 255);
+  float: left;
+  padding: 0;
+}
+
+#main-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+.main-container_home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.content-area {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2px;
+}
+
+.contact_box {
+  background-color: rgb(193, 102, 167);
+  color: rgba(0, 4, 247, 0.618);
+  padding: 10px;
+  float: left;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 50%;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.getinvolved_box {
+  text-align: center;
+  background-color: rgb(106, 106, 177);
+  color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  height: 30%;
+  padding: 10px;
+  float: right;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.Upcoming_Games_box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(212, 92, 84);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  float: right;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.Match_Calculator_Main {
+  text-align: center;
+  background-color: rgb(212, 154, 84);
+  color: blanchedalmond;
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  float: inline-end border 2px solid black;
+  border-radius: 15px;
+}
+
+.premiertablecenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-signup {
+  border-style: double;
+  border-width: 3px;
+  padding: 10px;
+}
+
+.profile-login {
+  border-style: double;
+  border-width: 3px;
+  padding: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.fixtures-box {
+  display: flex;
+  flex-direction: column;
+  background-color: A1EEBD;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.Match_Predictor_box {
+  text-align: center;
+  background-color: rgb(212, 154, 84);
+  color: blanchedalmond;
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+  float: right;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.search_box {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.Report_box {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(193, 102, 167);
+  color: rgba(0, 4, 247, 0.618);
+  margin-bottom: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Report_box:hover {
+  background-color: aliceblue;
+}
+
+.Question_Answer_box {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(193, 102, 167);
+  color: rgba(0, 4, 247, 0.618);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Question_Answer_box:hover {
+  background-color: aliceblue;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.issuesloginbox:hover {
+  background-color: rgb(215, 213, 206);
+  color: antiquewhite;
+}
